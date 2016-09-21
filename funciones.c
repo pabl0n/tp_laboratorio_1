@@ -3,6 +3,13 @@
 #include <stdlib.h>
 #include <conio.h>
 
+/**
+ * \brief Muestra un mensaje de advertencia . para continuar se debe apretar cualquier tecla
+ * \param No se pasa ningun valor por parametro
+ * \return No devuelve ningun valor.
+ *
+ */
+
 void advertencia(void){
 printf("\n\n*PRESIONE CUALQUIER TECLA PARA CONTINUAR*");
 getche();
